@@ -1,0 +1,68 @@
+{
+  "scopeName": "source.patent",
+  "patterns": [
+
+    {
+      "match": "\\bmethod\\b",
+      "name": "keyword.method.patent"
+    },
+
+    {
+      "match": "\\bsystem\\b",
+      "name": "keyword.method.patent"
+    },
+
+    {
+      "match": "\\bclaim\\s*(\\d*)\\b",
+      "name": "constant.numeric.claim_reference.patent"
+    },
+
+
+
+
+
+
+    {
+      "match": "\\bplurality\\b",
+      "name": "comment.markup.italic.plurality.patent"
+    },
+
+    {
+      "match": "\\bcomprises\\b",
+      "name": "comment.markup.italic.comprises.patent"
+    },
+
+    {
+      "match": "\\bwherein\\b",
+      "name": "comment.markup.italic.plurality.patent"
+    },
+
+    {
+      "match": "\\bsaid\\b",
+      "name": "comment.markup.italic.said.patent"
+    },
+
+
+    {
+      "match": "^\\d*\\.\\s*",
+      "name": "constant.numeric.claim_number.patent"
+    },
+
+    {
+      "match": "\\bcomprising\\b",
+      "name": "comment.markup.italic.comprising.patent"
+    },
+
+    {
+      "match": "\\bfurther comprising\\b",
+      "name": "comment.markup.italic.comprising.patent"
+    },
+
+    {
+      "match": ";\\sand\\b",
+      "name": "comment.markup.italic.trailing_and.patent"
+    }
+
+  ],
+  "fileTypes": ["patent"]
+}

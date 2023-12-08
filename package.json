@@ -1,0 +1,50 @@
+{
+  "name": "patent",
+  "displayName": "Patent",
+  "description": "Patent drafting tools",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "patent",
+        "aliases": ["Patent"],
+        "extensions": [
+          ".patent"
+        ]
+      }
+    ],
+    "commands": [{
+      "command": "patent.helloWorld",
+      "title": "Hello World"
+    }],
+    "grammars": [
+      {
+        "language": "patent",
+        "scopeName": "source.patent",
+        "path": "./syntaxes/patent.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
