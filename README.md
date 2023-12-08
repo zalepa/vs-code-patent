@@ -1,5 +1,5 @@
 # VS Code for Patents
-An extension for working with patent text in Visual Studio Code (finally, multi-cursor editing).
+An extension for working with patent text in Visual Studio Code. The extension aims to leverage VS Code's code-editing features (like multi-cursor editing) but includes a custom grammar for patent drafting as well as tools for writing patent-related documents.
 
 ![demo of extension](https://raw.githubusercontent.com/zalepa/vs-code-patent/main/docs/demo.gif)
 
