@@ -1,16 +1,18 @@
 # VS Code for Patents
 An extension for working with patent text in Visual Studio Code.
 
+![demo of extension](https://raw.githubusercontent.com/zalepa/vs-code-patent/main/docs/demo.gif)
+
 ## Current Features (in progress):
 
 * Limited syntax highlighting (in progress):
 
 ## Planned Features:
 
-- [] Antecdent basis checking
-- [] Spell check
-- [] Style guides (banned words, substitutes, etc.)
-- [] Template/boilerplate library
+- [ ] Antecdent basis checking
+- [ ] Spell check
+- [ ] Style guides (banned words, substitutes, etc.)
+- [ ] Template/boilerplate library
 
 ## Copyright and License (MIT)
 (c) 2023 George Zalepa. 
